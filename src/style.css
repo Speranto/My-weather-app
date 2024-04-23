@@ -35,6 +35,13 @@ header {
   width: 90px;
   color: white;
   font-size: 15px;
+  transition: all 200ms ease-in-out;
+}
+.button:hover {
+  background: #f3f2f3;
+  color: #27296d;
+  cursor: pointer;
+  border-color: #6468b8;
 }
 main {
   padding: 25px 0;
