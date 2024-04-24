@@ -72,19 +72,20 @@ main {
   display: flex;
 }
 .emoji {
-  font-size: 44px;
-  margin-top: 28px;
-  color: #27296d;
+  width: 88px;
+  height: 88px;
+  margin-top: 7px;
 }
 .temp-value {
-  font-size: 80px;
+  font-size: 85px;
   font-weight: bold;
   margin-left: 10px;
+  line-height: 88px;
   color: #27296d;
 }
 .temp-unit {
   font-size: 25px;
-  margin-top: 22px;
+  margin-top: 25px;
   color: #27296d;
 }
 .flower {
