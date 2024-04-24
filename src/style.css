@@ -1,11 +1,13 @@
 body {
   background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   font-family: "Zilla Slab", serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/194/original/pexels-eberhardgross-1287142.jpg?1713961868");
+  background-size: cover;
 }
 
 .App {
   background-color: white;
-  margin: 100px auto;
+  margin: 159px auto;
   max-width: 500px;
   padding: 30px;
   border-radius: 15px;
@@ -16,7 +18,7 @@ header {
   padding: 0 0 20px 0;
 }
 .city {
-  background-color: #f5e0f6;
+  background-color: #f6dbf7;
   padding: 8px;
   border-radius: 7px;
   border-width: 1px;
@@ -27,7 +29,7 @@ header {
   font-size: 15px;
 }
 .button {
-  background-color: #6468b8;
+  background-color: #6165ba;
   border-radius: 7px;
   border-width: 1px;
   padding: 8px;
@@ -38,10 +40,10 @@ header {
   transition: all 200ms ease-in-out;
 }
 .button:hover {
-  background: #f3f2f3;
+  background: #aecef9;
   color: #27296d;
   cursor: pointer;
-  border-color: #6468b8;
+  border-color: #6166b9;
 }
 main {
   padding: 25px 0;
@@ -64,7 +66,7 @@ main {
   font-weight: 500;
 }
 .weather-app-details strong {
-  color: #6468b8;
+  color: #6165ba;
 }
 .weather-app-temp-container {
   display: flex;
@@ -94,5 +96,5 @@ footer {
   color: rgba(0, 0, 0, 0.7);
 }
 a {
-  color: #6468b8;
+  color: #6065b9;
 }
