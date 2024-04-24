@@ -87,6 +87,9 @@ main {
   margin-top: 22px;
   color: #27296d;
 }
+.flower {
+  font-size: 22px;
+}
 
 footer {
   border-top: 1px solid rgb(241, 239, 243);
