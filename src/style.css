@@ -1,7 +1,7 @@
 body {
   font-family: "Zilla Slab", serif;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/194/original/pexels-eberhardgross-1287142.jpg?1713961868");
-  background-size: cover;
+  background-size: 100%;
 }
 
 .App {
