@@ -1,13 +1,20 @@
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temp-value");
   let temperature = response.data.temperature.current;
-  temperatureElement.innerHTML = Math.round(temperature);
+  temperatureElement.innerHTML = `${Math.round(
+    temperature
+  )}<small>&deg;c</small>`;
   let cityElement = document.querySelector("#weather-app-city");
   cityElement.innerHTML = response.data.city;
   let descriptionElement = document.querySelector("#description");
-  descriptionElement.innerHTML = response.data.condition.description;
+  let description = response.data.condition.description;
+  descriptionElement.innerHTML = ` , ${description}`;
+  let letterHumidityElement = document.querySelector("#letterHumidity");
+  letterHumidityElement.innerHTML = `Humidity: `;
   let humidityElement = document.querySelector("#Humidity");
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+  let letterWindElemet = document.querySelector("#letterWind");
+  letterWindElemet.innerHTML = ` , Wind: `;
   let windElement = document.querySelector("#Wind");
   let windSpeed = response.data.wind.speed;
   windElement.innerHTML = `${Math.round(windSpeed)}km/h`;
