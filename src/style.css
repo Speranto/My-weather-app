@@ -1,8 +1,5 @@
 body {
-  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   font-family: "Zilla Slab", serif;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/194/original/pexels-eberhardgross-1287142.jpg?1713961868");
-  background-size: cover;
 }
 
 .App {
