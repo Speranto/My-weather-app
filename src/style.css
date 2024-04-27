@@ -81,7 +81,7 @@ main {
   margin-left: 10px;
   line-height: 88px;
   color: #27296d;
-  display: block;
+  display: flex;
 }
 .temp-unit {
   font-size: 25px;
