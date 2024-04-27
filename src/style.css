@@ -1,5 +1,7 @@
 body {
   font-family: "Zilla Slab", serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/194/original/pexels-eberhardgross-1287142.jpg?1713961868");
+  background-size: cover;
 }
 
 .App {
@@ -22,7 +24,7 @@ header {
   border-color: #f3eef3;
   border-top: #f3eef3;
   border-left: #f3eef3;
-  width: 380px;
+  width: 76%;
   font-size: 15px;
 }
 .button {
@@ -31,7 +33,7 @@ header {
   border-width: 1px;
   padding: 8px;
   border-color: #f3eef3;
-  width: 90px;
+  width: 18%;
   color: white;
   font-size: 15px;
   transition: all 200ms ease-in-out;
