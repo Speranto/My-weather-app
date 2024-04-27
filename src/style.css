@@ -35,7 +35,7 @@ header {
   border-color: #f3eef3;
   width: 18%;
   color: white;
-  font-size: 15px;
+  font-size: 95%;
   transition: all 200ms ease-in-out;
 }
 .button:hover {
@@ -76,7 +76,7 @@ main {
   margin-top: 7px;
 }
 .temp-value {
-  font-size: 85px;
+  font-size: 500%;
   font-weight: bold;
   margin-left: 10px;
   line-height: 88px;
