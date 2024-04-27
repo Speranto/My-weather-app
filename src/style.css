@@ -31,11 +31,11 @@ header {
   background-color: #6165ba;
   border-radius: 7px;
   border-width: 1px;
-  padding: 8px;
+  padding: 1.6%;
   border-color: #f3eef3;
   width: 18%;
   color: white;
-  font-size: 95%;
+  font-size: 93%;
   transition: all 200ms ease-in-out;
 }
 .button:hover {
@@ -81,6 +81,7 @@ main {
   margin-left: 10px;
   line-height: 88px;
   color: #27296d;
+  display: block;
 }
 .temp-unit {
   font-size: 25px;
