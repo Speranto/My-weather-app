@@ -39,7 +39,7 @@ header {
   transition: all 200ms ease-in-out;
 }
 .button:hover {
-  background: #aecef9;
+  background: #f6daf8;
   color: #27296d;
   cursor: pointer;
   border-color: #6166b9;
@@ -92,7 +92,7 @@ main {
   font-size: 22px;
 }
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 1px;
   text-align: center;
   color: #000;
 }
@@ -106,6 +106,23 @@ main {
 }
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+.icon {
+}
+
+.col-2 {
+  display: inline-block;
+  padding: 24px;
+  background-color: #f9ebf9;
+  border-radius: 12px;
+  color: #1a1d64;
+  transition: all 200ms ease-in-out;
+  margin-inline: 2px;
+}
+.col-2:hover {
+  background: #787cbe;
+  color: #f8ecf9;
+  cursor: default;
 }
 footer {
   border-top: 1px solid rgb(241, 239, 243);
