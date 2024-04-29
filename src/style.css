@@ -108,6 +108,10 @@ main {
   opacity: 0.6;
 }
 .icon {
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
 }
 
 .col-2 {
